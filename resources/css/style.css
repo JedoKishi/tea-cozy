@@ -1,0 +1,32 @@
+body{
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+/* Header*/
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  text-decoration: underline;
+}
+
+header img{
+  height: 50px;
+  margin-left: 10px;
+}
+
+a{
+  color: seashell;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+  
+}
