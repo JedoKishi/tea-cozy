@@ -3,6 +3,7 @@ body{
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  text-align: center;
 }
 
 /* Header*/
@@ -13,6 +14,7 @@ header{
   align-items: center;
   height: 69px;
   text-decoration: underline;
+  border-bottom: 1px solid seashell;
 }
 
 header img{
@@ -28,5 +30,23 @@ nav{
   display: flex;
   justify-content: space-between;
   width: 350px;
-  
+}
+
+/*Mission*/
+
+.mission{
+  display: flex;
+  background-image: url(../images/img-mission-background.jpg);
+  height: 700px;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  }
+
+.mission-text{
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 1200px;
 }
