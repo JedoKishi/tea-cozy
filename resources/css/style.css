@@ -50,3 +50,32 @@ nav{
   background-color: black;
   width: 1200px;
 }
+
+/*Tea of the Month*/
+
+.tea{
+  width: 1000px;
+  margin: 0 auto;
+  }
+
+.tea img{
+  width: 300px;
+  height: 200px;
+}
+
+.tea-imgs-row-1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.tea-imgs-row-2{
+  display: flex;
+  justify-content: space-around;
+}
+
+.tea-info{
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
