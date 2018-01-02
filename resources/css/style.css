@@ -33,7 +33,6 @@ nav{
 }
 
 /*Mission*/
-
 .mission{
   display: flex;
   background-image: url(../images/img-mission-background.jpg);
@@ -52,7 +51,6 @@ nav{
 }
 
 /*Tea of the Month*/
-
 .tea{
   width: 1000px;
   margin: 0 auto;
@@ -78,4 +76,29 @@ nav{
   display: flex;
   justify-content: space-around;
   margin: 10px;
+}
+
+/*Locations*/
+.location{
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/img-locations-background.jpg);
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.address-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: black;
+  width: 300px;
+  margin: 15px 20px;
+}
+
+.address{
+  display: flex;
+  justify-content: center;
 }
