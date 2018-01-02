@@ -1,5 +1,6 @@
 body{
   font-size: 22px;
+  font-family: Helvetica;
   color: seashell;
   background-color: black;
   opacity: 0.9;
@@ -96,9 +97,20 @@ nav{
   background-color: black;
   width: 300px;
   margin: 15px 20px;
+  opacity: 1;
 }
 
 .address{
   display: flex;
   justify-content: center;
+}
+
+/*Footer*/
+.contact{
+  height: 200px;
+}
+
+.copyright{
+  text-align: left;
+  margin-left: 20px;
 }
